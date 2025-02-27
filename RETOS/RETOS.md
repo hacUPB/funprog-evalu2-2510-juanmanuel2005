@@ -31,4 +31,36 @@ Escribir "La hipotenusa del triángulo es: ", C
 Fin  
 ![Diagrama_de_flujo_3](/IMAGENES/Reto%203.jpg)  
 
-4.   
+4. 
+Inicio  
+Escribir "Ingrese su fecha de nacimiento (día, mes, año):"  
+Leer dia_nacimiento, mes_nacimiento, año_nacimiento  
+
+Escribir "Ingrese la fecha actual (día, mes, año):"  
+Leer dia_actual, mes_actual, año_actual  
+
+edad = año_actual - año_nacimiento  
+
+Si (mes_actual > mes_nacimiento) o (mes_actual = mes_nacimiento y dia_actual >= dia_nacimiento) Entonces  
+ya_cumplio = Verdadero  
+Sino  
+ya_cumplio = Falso  
+FinSi  
+
+Si no ya_cumplio Entonces  
+edad = edad - 1  
+FinSi  
+
+Si (dia_actual = dia_nacimiento) y (mes_actual = mes_nacimiento) Entonces  
+Escribir "¡Feliz Cumpleaños!"  
+FinSi  
+Escribir "La edad actual es: ", edad  
+
+Si ya_cumplio Entonces  
+Escribir "Ya celebraste tu cumpleaños este año."  
+Sino  
+Escribir "Aún no has celebrado tu cumpleaños este año."       
+FinSi  
+Fin
+
+
