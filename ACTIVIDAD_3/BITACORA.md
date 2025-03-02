@@ -7,7 +7,7 @@ En un diagrama de flujo para representar un código de programación se utilizan
 ![simbolos](IMAGENES/SIMBOLOS.png)
 
 ## Ejercicio 2 
-
+```
 Inicio  
 Solicitar el ID del empleado  
 Escribir "Ingrese el ID del empleado:"  
@@ -28,12 +28,14 @@ Imprimir los resultados
 Escribir "Ingreso total semestral: ", ingresoTotal  
 Escribir "Promedio mensual: ", promedioMensual  
 Fin  
-
+```
 ### Ejercicios
 
 1. Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
 
-R// INICIO   
+R// 
+```
+INICIO   
 
 Escribir “ingrese cantidad de lápices que se quieren comprar”   
 
@@ -54,12 +56,14 @@ Total = Costo × cantidad
 Imprimir Total    
   
 FIN   
-
+```
 ![Diagrama de flujo](IMAGENES/LAPICES.png)
 
 2. Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.  
 
-R//Inicio    
+R//
+```
+Inicio    
 
 Escribir “Ingrese valor de compra”   
 
@@ -80,12 +84,14 @@ Total = valor – Descuento
 Imprimir total    
 
 FIN    
-
+```
 ![Diagrama de flujo](IMAGENES/DESCUENTO.png)
 
 3. El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65; de 50 a 99 alumnos, el costo es de $70, de 30 a 49, de $95, y si son menos de 30, el costo de la renta del autobús es de $4000, sin importar el número de alumnos.  
 
-R//Inicio    
+R//
+```
+Inicio    
 
 Escribir “Ingrese el número de alumnos”    
 Leer alumnos    
@@ -113,12 +119,14 @@ Escribir “El costo por alumno es:”, CostoPorAlumno
 Escribir “El costo total del viaje es:”, CostoTotal    
 
 Fin    
-
+```
 4. Se requiere un algoritmo para obtener la estatura promedio de un grupo de personas, cuyo número de miembros se desconoce, el ciclo debe efectuarse siempre y cuando se tenga una estatura registrada. Realice el diagrama de flujo, el pseudocódigo y el diagrama N/S para representarlo, utilizando el ciclo apropiado.  
  
 Como se puede ver, para resolver este problema no se puede utilizar el ciclo Desde, ya que no se tiene el número de personas exacto, que es lo que en un momento determinaría el número de veces que el proceso que se encuentra dentro del ciclo se ejecute, para este caso es necesario contar al menos con la estatura de una persona (para que tenga caso realizar el proceso del ciclo). Por otro lado, si se utiliza el ciclo Repite, se ejecutará por lo menos una vez y hasta que se le proporcione una estatura menor o igual a cero, por tal motivo no es muy conveniente utilizarlo, ya que se debe tener al menos una estatura para realizar lo que se pretende con el algoritmo.  
 
-R// INICIO  
+R// 
+```
+INICIO  
 suma = 0  
 num_personas = 0   
 estatura = 1  
@@ -134,7 +142,7 @@ si suma > 0
 promedio = suma / num_personas  con num_personas > 0  
 escribir promedio  
 FIN    
-
+```
 5. Diagrama de flujo codigo que escriba Nnumeros de la serie de Fibonacci.  
 
 R//    

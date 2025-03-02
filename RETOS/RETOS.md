@@ -8,6 +8,7 @@ esos puntos.**
 ![Diagrama](IMAGENES/ERETO_1.png)
 
 **R//**   
+```
 Inicio  
 Escribir "Ingrese las coordenadas del primer punto (X1, Y1)"  
 Leer X1, Y1    
@@ -16,6 +17,7 @@ Leer X2, Y2
 D = SQRT ((X1-X2)*(X1-X2)+(Y1-Y2)*(Y1-Y2))  
 Escribir "La distancia entre los dos puntos es: ", D  
 Fin  
+```
 
 ![Diagrama_de_flujo_1](IMAGENES/Reto_1.png)  
 
@@ -28,13 +30,14 @@ debe pedir con base en los metros que requiere. Represéntelo mediante un
 diagrama de flujo y pseudocódigo (1 pulgada = 0.0254 m).**
 
 **R//**  
+```
 Inicio     
 Escribir "ingrese la cantidad de tela en metros"  
 Leer metros   
 Pulgadas = metros/0.0254  
 Escribir "Son", Pulgadas, "pulgadas de tela."  
 Fin  
-
+```
 ![Diagrama_de_flujo_2](IMAGENES/Reto%20_2.png)  
 
 
@@ -42,6 +45,7 @@ Fin
 Recuerde que por Pitágoras se tiene que: $C^2 = A^2 + B^2$.**
 
 **R//**  
+```
 Inicio  
 Escribir "Ingrese la longitud del cateto A:"  
 Leer A  
@@ -50,6 +54,7 @@ Leer B
 C = SQRT((A*A) + (B*B) )  
 Escribir "La hipotenusa del triángulo es: ", C  
 Fin  
+```
 
 ![Diagrama_de_flujo_3](IMAGENES/Reto%20_3.jpg)  
 
@@ -64,6 +69,7 @@ Fin
     - Represente la solución utilizando pseudocódigo claro y estructurado.
 
 **R//**  
+```
 Inicio  
 Escribir "Ingrese su fecha de nacimiento (día, mes, año):"  
 Leer dia_nacimiento, mes_nacimiento, año_nacimiento  
@@ -94,12 +100,13 @@ Sino
 Escribir "Aún no has celebrado tu cumpleaños este año."       
 FinSi  
 Fin
-
+```
 
 5. **Realice un algoritmo que permita determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que a partir de la hora número 41 y hasta la 45, cada hora se le paga el doble, de la hora 46 a la 50, el triple, y que trabajar
 más de 50 horas no está permitido. Represente el algoritmo mediante pseudocódigo.**
 
-**R//**    
+**R//**   
+``` 
 Inicio  
 
 Escribir "Ingrese el número de horas trabajadas en la semana:"  
@@ -129,11 +136,12 @@ Escribir "El sueldo semanal es: ", sueldo
 FinSi  
 
 Fin  
-
+```
 
 6. **Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. Realice el pseudocódigo para representarlo, utilizando el ciclo apropiado.**  
 
 **R//**  
+```
 Inicio  
 
 Escribir "Ingrese la cantidad de números a evaluar:"  
@@ -164,11 +172,12 @@ Escribir "Cantidad de números menores a cero:", menores
 Escribir "Cantidad de números mayores a cero:", mayores  
 
 Fin  
-
+```
 
 7. **Se requiere un algoritmo para determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra 3¢ el primero de enero, 9¢ el dos de enero, 27¢ el 3 de enero y así sucesivamente todo el año. Represente la solución mediante pseudocódigo.**  
 
 **R//**  
+```
 Inicio   
  
 ahorro_diario = 0.03   
@@ -183,12 +192,13 @@ FinPara
 Escribir "El ahorro total en un año es: ", ahorro_total, " pesos"   
 
 Fin   
-
+```
 
 8. **Realice el algoritmo para determinar cuánto pagará una persona que adquiere N artículos, los cuales están de promoción. Considere que si su precio es mayor o igual a $200 se le aplica un descuento de 15%, y si su precio es mayor a $100, pero menor a $200, el descuento es de
 12%; de lo contrario, solo se le aplica 10%. Se debe saber cuál es el costo y el descuento que tendrá cada uno de los artículos y finalmente cuánto se pagará por todos los artículos obtenidos. Represente la solución mediante pseudocódigo.**  
 
 **R//**  
+```
 Inicio  
 
 Escribir "Ingrese la cantidad de artículos a comprar:"  
@@ -220,6 +230,7 @@ FinPara
 Escribir "El total a pagar por todos los artículos es: ", total_a_pagar  
 
 Fin  
+```
 
 
 9. **Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:**
@@ -227,6 +238,7 @@ Fin
     $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$**
 
 **R//**
+```
 Inicio  
 
 Escribir "Ingrese el valor de x:"  
@@ -246,12 +258,13 @@ FinPara
 Escribir "El valor aproximado de e^", x, " es: ", resultado  
 
 Fin  
-
+```
 
 10. **Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:**  
 $Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$  
 
-**R//**  
+**R//** 
+``` 
 Inicio  
 
 Escribir "Ingrese el valor del ángulo en grados:"  
@@ -276,3 +289,4 @@ FinPara
 Escribir "El valor aproximado de Sen(", grados, "°) es: ", resultado  
 
 Fin  
+```
